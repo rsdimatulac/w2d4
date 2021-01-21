@@ -22,7 +22,7 @@ let myMap = function(array, cb) {
     for ( let i = 0; i < array.length; i++ ) {
         let ele = array[i];
         let res = cb(ele);
-        newArray.push(res);
+        newArr.push(res);
     };
     return newArr;
 };
